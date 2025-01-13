@@ -5,10 +5,10 @@
 LiquidCrystal_I2C lcd(0x3F, 20, 4);
 
 // named constants for the thermometer pins
-const int meat1Pin = A1;
-const int meat2Pin = A2;
-const int meat3Pin = A3;
-const int meat4Pin = A4;
+const int meat1Pin = A0;
+const int meat2Pin = A1;
+const int meat3Pin = A2;
+const int meat4Pin = A3;
 
 // sensor value variables
 int meat1Val = 0;
